@@ -2239,6 +2239,20 @@ span.icon_g_plus {
         margin: 1em 0;
     }
 }
-
-
+@media only screen and (max-width: 1400px) {
+  #myCarousel1 .carousel-inner {
+    height:660px;
+  }
+  #myCarousel1 .carousel-inner .item img{
+    min-height:660px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #myCarousel1 .carousel-inner {
+    height:40rem;
+  }
+  #myCarousel1 .carousel-inner .item img{
+    min-height:40rem;
+  }
+}
 /* -- //Responsive code -- */
